@@ -16,8 +16,10 @@ import com.google.android.gms.ads.InterstitialAd;
 public class MainActivity extends AppCompatActivity
 {
     InterstitialAd ad;
-    String[] clr = {"#000000", "#FFFFFF", "#F44336", "#E91E63", "#9C27B0", "#673AB7", "#3F51B5", "#009688",
-            "#2196F3", "#4CAF50", "#00BCD4", "#FFEB3B", "#FFC107", "#FF9800", "#FF5722", "#795548", "#9E9E9E", "#607D8B", "#FFFFFF"};
+    String[] clr = {"#000000", "#FFFFFF", "#F44336", "#E91E63", "#102372",
+            "#9C27B0", "#673AB7", "#3F51B5", "#009688",
+            "#2196F3", "#4CAF50", "#00BCD4", "#FFEB3B", "#FFC107", "#FF9800",
+            "#FF5722", "#795548", "#9E9E9E", "#607D8B", "#FFFFFF"};
     int sz = clr.length;
     int co = 0;
     RelativeLayout rl;
